@@ -1,13 +1,15 @@
 import React from 'react'
-import Nav from './navbar/Nav';
-
+import Nav from './Components/Nav';
+import Body1 from './Components/FrstBody';
+import Cards from './Components/SecBody';
 const Main = () => {
   return (
     <div>
         <Nav/>
-        <h2>Profile</h2>
+        <Body1/>
+        <Cards/>
     </div>
   )
 }
 
-export default Main
+export default Main;

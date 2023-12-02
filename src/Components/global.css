@@ -1,0 +1,14 @@
+.gradient-custom {
+   
+    background: linear-gradient(to right,  rgba(248, 179, 82, 0.9), rgba(250, 70, 70, 0.9));
+  }
+ .vr{
+  margin-left: 50%;
+  margin-bottom:3%;
+  
+ }
+ .form-control::placeholder { 
+  color:black;
+
+}
+

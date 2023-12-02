@@ -5,4 +5,4 @@ import 'bootstrap/dist/css/bootstrap.css'
 import Main from './Parent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Main />);
+root.render(<Main/>);
