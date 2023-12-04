@@ -5,6 +5,7 @@ import msg from "./icons8-speech-bubble-50.png"
 import navLogo from "./Navbar_Logo.png" 
 import ham from "./icons8-menu-24.png"
 import pic from "./feature.jpg"
+import search from "./search4.png"
 
 
 
@@ -27,9 +28,14 @@ const Nav=()=>{
                             <nav class="navbar ">
                 <div class="container-fluid opacity-25 ">
                 
-                <div class="form-group has-search">
-<input type="text" class="form-control rounded-pill" placeholder="Search here"/>
+                <div class="input-group ">
+  <div class="input-group-prepend">
+  </div>
+  <div className='container bg-light  rounded-pill d-flex'>
+  <input type="text" class="text-white border-0 py-1" placeholder="Search here" aria-label="Username" />
+<img src={search} className='pt-2' height={25}/>
 
+  </div>
 </div>
 
 

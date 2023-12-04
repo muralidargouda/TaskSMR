@@ -4,6 +4,8 @@ import pic1 from "./pic1.jpg"
 import dot from "./dots.png"
 import pic2 from "./dwd.jpg"
 import pic3 from "./fire.jpg"
+import ProgressBar from 'react-bootstrap/ProgressBar';
+
 
 const Cards = () => {
   return (
@@ -13,7 +15,7 @@ const Cards = () => {
     <section className='d-flex justify-content-between '>
   
         <div class="card w-25 mx-4 ">
-  <div class="card-body">
+  <div class="card-body pt-2">
     <section className='d-flex '>
     <h5 class="card-title"><small>Office Management<small/></small></h5>
     <img className='ms-auto' height={20} src={dot}/>
@@ -25,17 +27,21 @@ const Cards = () => {
     <div><small>Project Leader:</small></div>
     <img src={pic} height={25} className='mb-2 rounded-circle'/>
     <div>Team:</div>
+    <div>
     <img src={pic} height={25} className='rounded-circle'/>
     <img src={pic1} height={25} className='rounded-circle'/>
     <img src={pic2} height={25} className='rounded-circle'/>
     <img src={pic3} height={25} className='rounded-circle'/>
-
-
+    </div> 
+   <div>
+    Progress:
+   <ProgressBar now={40} />
+   </div>
        </div>
     </div>
 
     <div class="card w-25">
-  <div class="card-body">
+  <div class="card-body pt-2">
   <section className='d-flex '>
     <h5 class="card-title"><small>Project Management<small/></small></h5>
     <img className='ms-auto' height={20} src={dot}/>
@@ -50,13 +56,16 @@ const Cards = () => {
     <img src={pic1} height={25} className='rounded-circle'/>
     <img src={pic2} height={25} className='rounded-circle'/>
     <img src={pic3} height={25} className='rounded-circle'/>
-
+    <div>
+    Progress:
+   <ProgressBar now={40} />
+   </div>
 
        </div>
     </div>
 
     <div class="card w-25 mx-4">
-  <div class="card-body">
+  <div class="card-body pt-2">
   <section className='d-flex '>
     <h5 class="card-title"><small>Video Calling App<small/></small></h5>
     <img className='ms-auto' height={20} src={dot}/>
@@ -71,12 +80,16 @@ const Cards = () => {
     <img src={pic1} height={25} className='rounded-circle'/>
     <img src={pic2} height={25} className='rounded-circle'/>
     <img src={pic3} height={25} className='rounded-circle'/>
+    <div>
+    Progress:
+   <ProgressBar now={40} />
+   </div>
 
        </div>
     </div>
 
     <div class="card w-25 me-4 he">
-  <div class="card-body pt-3">
+  <div class="card-body pt-2">
  
   <section className='d-flex '>
     <h5 class="card-title"><small>Hospital Administration<small/></small></h5>
@@ -92,8 +105,11 @@ const Cards = () => {
     <img src={pic1} height={25} className='rounded-circle'/>
     <img src={pic2} height={25} className='rounded-circle'/>
     <img src={pic3} height={25} className='rounded-circle'/>
-
-
+    <div>
+    Progress:
+   <ProgressBar now={40} />
+   </div>
+   
        </div>
     </div>
     
