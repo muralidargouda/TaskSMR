@@ -20,7 +20,7 @@ const Nav=()=>{
                     <img src={navLogo} alt='logo' height={25}/>
                 </logo>
                 <ham className= 'ms-2'>
-                <img src={ham} height={25}/>
+                <img src={ham} alt='ham' height={25}/>
                 </ham>
                 <h5 className= 'ms-2 text-white'>Dreams Technologies</h5>
             </section>
@@ -33,16 +33,10 @@ const Nav=()=>{
   </div>
   <div className='container bg-light  rounded-pill d-flex'>
   <input type="text" class="text-white border-0 py-1" placeholder="Search here" aria-label="Username" />
-<img src={search} className='pt-2' height={25}/>
+<img src={search} alt='search' className='pt-2' height={25}/>
 
   </div>
 </div>
-
-
-
-
-
-
 
                 </div>
                 </nav>
@@ -59,8 +53,8 @@ const Nav=()=>{
                 </ul>
                 </div>
             </article>
-            <noti><img src={noti} height={25}/></noti>
-            <msg className="ps-2"><img src={msg} height={25}/></msg>
+            <noti><img src={noti} alt='noti' height={25}/></noti>
+            <msg className="ps-2"><img src={msg} alt='msg' height={25}/></msg>
             <acc><img src={pic} height={25} alt='logo' className=' ms-2 rounded-circle '/></acc>
             <article>
             <div class="btn-group">
