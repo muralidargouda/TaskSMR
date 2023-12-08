@@ -16,14 +16,14 @@ const Cards = () => {
     <div id='cards' className='bg-light '>
     <section id='cards' className='d-flex justify-content-between '>
   
-        <div class="card w-25 mx-4 col-lg">
-  <div class="card-body pt-2">
+        <div className="card w-25 mx-4 col-lg">
+  <div className="card-body pt-2">
     <section className='d-flex '>
-    <h5 class="card-title"><small>Office Management<small/></small></h5>
+    <h5 className="card-title"><small>Office Management<small/></small></h5>
     <img className='ms-auto' height={20} alt='dot' src={dot}/>
     </section>
-    <h6 class="">1<small className='text-secondary'> open task</small>, 9<small className='text-secondary'> tasks completed</small></h6>
-    <p class="text-secondary">Some quick example text to build on the card title and make up the bulk of the card content.</p>
+    <h6 className="">1<small className='text-secondary'> open task</small>, 9<small className='text-secondary'> tasks completed</small></h6>
+    <p className="text-secondary">Some quick example text to build on the card title and make up the bulk of the card content.</p>
     <div><b>Deadline:</b></div>
     <div className='mb-2 text-secondary'>17th Apr 2023</div>
     <div><small><b>Project Leader:</b></small></div>
@@ -44,13 +44,13 @@ const Cards = () => {
        </div>
     </div>
 
-    <div class="card w-25 col-lg">
-  <div class="card-body pt-2">
+    <div className="card w-25 col-lg">
+  <div className="card-body pt-2">
   <section className='d-flex '>
-    <h5 class="card-title"><small>Project Management<small/></small></h5>
+    <h5 className="card-title"><small>Project Management<small/></small></h5>
     <img className='ms-auto' height={20} alt='dot' src={dot}/>
     </section>    <h6 class="">2<small className='text-secondary'> open task</small>, 5<small className='text-secondary'> tasks completed</small></h6>
-    <p class="text-secondary">Some quick example text to build on the card title and make up the bulk of the card content.</p>
+    <p className="text-secondary">Some quick example text to build on the card title and make up the bulk of the card content.</p>
     <div><b>Deadline:</b></div>
     <div className='text-secondary mb-2'>17th Apr 2023</div>
     <div><small><b>Project Leader:</b></small></div>
@@ -71,13 +71,13 @@ const Cards = () => {
        </div>
     </div>
 
-    <div class="card w-25 mx-4 col-lg">
-  <div class="card-body pt-2">
+    <div className="card w-25 mx-4 col-lg">
+  <div className="card-body pt-2">
   <section className='d-flex ' id='cardb'>
-    <h5 class="card-title"><small>Video Calling App<small/></small></h5>
+    <h5 className="card-title"><small>Video Calling App<small/></small></h5>
     <img className='ms-auto' height={20} alt='dot' src={dot}/>
-    </section>    <h6 class="">3<small className='text-secondary'> open task</small>, 3<small className='text-secondary'> tasks completed</small></h6>
-    <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card content.</p>
+    </section>    <h6 className="">3<small className='text-secondary'> open task</small>, 3<small className='text-secondary'> tasks completed</small></h6>
+    <p className="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card content.</p>
     <div><b>Deadline:</b></div>
     <div className='text-secondary mb-2'>17th Apr 2023</div>
     <div><small><b>Project Leader:</b></small></div>
@@ -98,14 +98,14 @@ const Cards = () => {
        </div>
     </div>
 
-    <div class="card w-25 me-4 ">
-  <div class="card-body pt-2">
+    <div className="card w-25 me-4 ">
+  <div className="card-body pt-2">
  
   <section className='d-flex '>
-    <h5 class="card-title"><small>Hospital Administration<small/></small></h5>
+    <h5 className="card-title"><small>Hospital Administration<small/></small></h5>
     <img className='ms-auto' height={20} alt='dot' src={dot}/>
     </section>    <h6 class="">12<small className='text-secondary'> open task</small>, 4<small className='text-secondary'> tasks completed</small></h6>
-    <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card content.</p>
+    <p className="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card content.</p>
    <div><b>Deadline:</b></div>
     <div className='text-secondary mb-2'>17th Apr 2023</div>
     <div><small><b>Project Leader:</b></small></div>

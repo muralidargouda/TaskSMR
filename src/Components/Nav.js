@@ -30,7 +30,7 @@ const Nav=()=>{
   <div className="input-group-prepend">
   </div>
   <div className=' search container bg-light  rounded-pill d-flex'>
-  <input type="text" class="text-white border-0 py-1" placeholder="Search here" aria-label="Username" />
+  <input type="text" className="text-white border-0 py-1" placeholder="Search here" aria-label="Username" />
 <img src={search} alt='search' className='pt-2' height={25}/>
 
   </div>

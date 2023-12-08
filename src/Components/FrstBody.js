@@ -6,9 +6,9 @@ const Body1 = () => {
   return (
     <>
     { data.map((data,z)=>(
-    <small>
+    <small key={z}>
     <div  className='bg-light pb-3 row'>
-       <div id='main' className='ms-4 pt-3 col-sm-4'>
+       <div id='main' key={z} className='ms-4 pt-3 col-sm-4'>
         <h4>Profile</h4>
         <h6>Dashboard / Profile</h6>
         </div>
@@ -22,7 +22,7 @@ const Body1 = () => {
                     <div className='fw-bold'>{data.Name}</div>
                     <div className='fs-6 fw-light'>{data.Role}</div>
                     <div><b>Employee ID:{data.EmpID}</b></div>
-                    <button class="btn btn- mt-2 gradient-custom" type="submit">Send Message</button>
+                    <button className="btn btn- mt-2 gradient-custom" type="submit">Send Message</button>
                 </article>
                 <div className='vr'></div>
             </section>
