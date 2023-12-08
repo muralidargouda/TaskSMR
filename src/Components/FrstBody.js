@@ -7,8 +7,8 @@ const Body1 = () => {
     <>
     { data.map((data,z)=>(
     <small>
-    <div id='main' className='bg-light pb-3'>
-       <div  className='ms-4 pt-3'>
+    <div  className='bg-light pb-3 row'>
+       <div id='main' className='ms-4 pt-3 col-sm-4'>
         <h4>Profile</h4>
         <h6>Dashboard / Profile</h6>
         </div>
@@ -26,6 +26,7 @@ const Body1 = () => {
                 </article>
                 <div className='vr'></div>
             </section>
+            
             <section className='d-flex float-right text mt-3 w-50 '>
                 <article className='ms-5 '>
                    <h6> Phone:</h6>
@@ -34,6 +35,7 @@ const Body1 = () => {
                    <h6> Address:</h6>
                    <h6> Gender:</h6>
                 </article>
+
                 
                
                     <article className='mx-auto' key={z}>
@@ -43,7 +45,7 @@ const Body1 = () => {
                 <h6 className='text-secondary'>{data.Address}</h6>
                 <h6 className='text-secondary'>{data.Gender}</h6>
                 </article>
-                 
+               
             </section>
         </div>
    

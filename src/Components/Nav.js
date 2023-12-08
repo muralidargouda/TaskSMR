@@ -14,24 +14,22 @@ import search from "./search4.png"
 const Nav=()=>{
     return(
         <>
-                <navbar className ='py-0 d-flex navbar bg-danger navbar-expand-lg navbar-light gradient-custom'>
+                <navbars className ='py-0 d-flex navbar bg-danger navbar-expand-lg navbar-light gradient-custom'>
             <section className=' ms-3 d-flex'>
-                <logo>
-                    <img src={navLogo} alt='logo' height={25}/>
-                </logo>
-                <ham className= 'ms-2'>
-                <img src={ham} alt='ham' height={25}/>
-                </ham>
-                <h5 className= 'ms-2 text-white'>Dreams Technologies</h5>
+                    <img src={navLogo} alt='logo' id='logo' height={25}/>
+
+                <img className= 'ms-2' src={ham}  id='hide' alt='ham' height={25}/>
+             
+                <h5 id='hide' className= 'ms-2 text-white'>Dreams Technologies</h5>
             </section>
-            <search className= 'ms-auto'>
-                            <nav class="navbar ">
-                <div class="container-fluid opacity-25 ">
+            <search className= ' search ms-auto'>
+                            <nav  className="navbar">
+                <div className="container-fluid opacity-25 ">
                 
-                <div class="input-group ">
-  <div class="input-group-prepend">
+                <div className="input-group" >
+  <div className="input-group-prepend">
   </div>
-  <div className='container bg-light  rounded-pill d-flex'>
+  <div className=' search container bg-light  rounded-pill d-flex'>
   <input type="text" class="text-white border-0 py-1" placeholder="Search here" aria-label="Username" />
 <img src={search} alt='search' className='pt-2' height={25}/>
 
@@ -42,32 +40,32 @@ const Nav=()=>{
                 </nav>
             </search>
             <article>
-                <div class="btn-group">
-                <button type="button" class="btn  dropdown-toggle btn-transparent text-white" data-bs-toggle="dropdown" aria-expanded="false">
+                <div  id='hide' className="btn-group">
+                <button type="button" className="btn  dropdown-toggle btn-transparent text-white" data-bs-toggle="dropdown" aria-expanded="false">
                     English
                 </button>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Kannada</a></li>
-                    <li><a class="dropdown-item" href="#">Telugu</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <ul className="dropdown-menu">
+                    <li><a className="dropdown-item" href="#">Kannada</a></li>
+                    <li><a className="dropdown-item" href="#">Telugu</a></li>
+                    <li><a className="dropdown-item" href="#">Something else here</a></li>
                 </ul>
                 </div>
             </article>
-            <noti><img src={noti} alt='noti' height={25}/></noti>
-            <msg className="ps-2"><img src={msg} alt='msg' height={25}/></msg>
-            <acc><img src={pic} height={25} alt='logo' className=' ms-2 rounded-circle '/></acc>
+            <img src={noti} alt='noti' id='hide' height={25}/>
+            <img src={msg} className="ps-2" id='hide' alt='msg' height={25}/>
+            <img src={pic} height={25} id='hide' alt='logo' className=' ms-2 rounded-circle '/>
             <article>
-            <div class="btn-group">
-                <button type="button" class="btn  dropdown-toggle btn-transparent ps-1 text-white" data-bs-toggle="dropdown" aria-expanded="false">
+            <div className="btn-group" id='button'>
+                <button type="button"  className="btn  dropdown-toggle btn-transparent ps-1 text-white" data-bs-toggle="dropdown" aria-expanded="false">
                     Admin
                 </button>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Logout</a></li>
-                    <li><a class="dropdown-item" href="#">Details</a></li>
+                <ul className="dropdown-menu">
+                    <li><a className="dropdown-item" href="#">Logout</a></li>
+                    <li><a className="dropdown-item" href="#">Details</a></li>
                 </ul>
                 </div>
             </article>
-        </navbar>
+        </navbars>
 
        
         </>
